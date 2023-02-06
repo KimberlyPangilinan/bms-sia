@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 07, 2022 at 02:37 AM
+-- Generation Time: Feb 06, 2023 at 06:42 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -43,8 +43,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`, `firstname`, `lastname`, `category`, `photo`, `created_on`) VALUES
-(1, 'Admin', '$2y$10$Hys97rF4C5a5ZVXolPqrOuwHZOna.1WbpJJotx87dPOujZ/yWQUme', 'Mon Cedric', 'Avila', 'Super Admin', 'Avila.jpg', '2018-04-02'),
-(2, 'Admin01', '$2y$10$Hys97rF4C5a5ZVXolPqrOuwHZOna.1WbpJJotx87dPOujZ/yWQUme', 'Kimberly', 'Pangilinan', 'Admin', 'kim.jpg', '0000-00-00');
+(2, 'Admin01', '$2y$10$Hys97rF4C5a5ZVXolPqrOuwHZOna.1WbpJJotx87dPOujZ/yWQUme', 'Kimberlyg', 'Pangilinang', 'Admin', 'Untitled-2.png', '0000-00-00'),
+(4, 'kim', '$2y$10$1n7.TeCTyB5hsB6uSZlcQuyLkCzEVA5gV0NxjXg2nKGmgW3aX6rCi', 'kim', 'kim', 'Super Admin', 'Untitled-2.png', '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -652,7 +652,7 @@ ALTER TABLE `webofficial`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `announcement`
